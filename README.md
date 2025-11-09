@@ -3,7 +3,7 @@
 ## Overview
 
 This repository provides a collection of **PowerShell scripts** that automate the setup of a **modern development environment on Windows 10 and Windows 11**.
-It is designed to help developers quickly configure their systems with essential tools, languages, and environments — including **VSCode**, **Docker**, and **WSL2** — with minimal manual effort.
+It is designed to help developers quickly configure their systems with essential tools, languages, and environments — including **VSCode**, **Docker**, and **WSL2** —.
 
 Each script can be executed individually depending on your needs, and all are designed to run safely on fresh or existing Windows installations.
 
@@ -13,8 +13,8 @@ Each script can be executed individually depending on your needs, and all are de
 
 ### 1. **Basic Development Setup**
 
-**File:** [`setup-dev.ps1`](https://github.com/IntiCerda/Script-Dev-W10-W11/blob/main/Basic%20Development%20Setup/setup-dev.ps1)
-**Purpose:** Installs the core tools, languages, and editors for a typical development environment.
+- **File:** [`setup-dev README`](https://github.com/IntiCerda/Script-Dev-W10-W11/blob/main/Basic%20Development%20Setup/README.md)
+- **Purpose:** Installs the core tools, languages, and editors for a typical development environment.
 
 #### Installs:
 
@@ -28,8 +28,8 @@ Each script can be executed individually depending on your needs, and all are de
 
 ### 2. **Docker and WSL Setup**
 
-**File:** [`setup-docker-wsl.ps1`](https://github.com/IntiCerda/Script-Dev-W10-W11/blob/main/Docker%20and%20WSL%20Setup/setup-docker-wsl.ps1)
-**Purpose:** Installs and configures **WSL2** (Windows Subsystem for Linux) and **Docker Desktop** for container-based development.
+- **File:** [`setup-docker-wsl README`](https://github.com/IntiCerda/Script-Dev-W10-W11/blob/main/Docker%20and%20WSL%20Setup/README.md)
+- **Purpose:** Installs and configures **WSL2** (Windows Subsystem for Linux) and **Docker Desktop** for container-based development.
 
 #### Installs and Configures:
 
@@ -48,9 +48,9 @@ Docker Desktop and WSL2 will not work correctly without it.
 
 ### 3. **Complete Development Setup**
 
-**File:** [`setup-dev-complete.ps1`](https://github.com/IntiCerda/Script-Dev-W10-W11/blob/main/Complete%20Development%20Setup/setup-dev-complete.ps1)
-**Purpose:** A full setup that combines the previous scripts into one process.
-It installs developer tools, languages, WSL2, Docker, and VSCode extensions — everything ready in a single run.
+- **File:** [`setup-dev-complete README`](https://github.com/IntiCerda/Script-Dev-W10-W11/blob/main/Complete%20Development%20Setup/README.md)
+- **Purpose:** A full setup that combines the previous scripts into one process.
+  It installs developer tools, languages, WSL2, Docker, and VSCode extensions — everything ready in a single run.
 
 #### Includes:
 
@@ -74,18 +74,18 @@ It installs developer tools, languages, WSL2, Docker, and VSCode extensions — 
 
 ## Why Use These Scripts?
 
-**Full automation:** No manual installations or downloads.
-**Consistency:** Ensures identical environments across different machines.
-**Time-saving:** One command sets up your entire development workspace.
-**Modular:** Use only the scripts you need.
-**Safe:** Uses official sources (Winget, Microsoft Store, Docker official downloads).
+- **Full automation:** No manual installations or downloads.
+- **Consistency:** Ensures identical environments across different machines.
+- **Time-saving:** One command sets up your entire development workspace.
+- **Modular:** Use only the scripts you need.
+- **Safe:** Uses official sources (Winget, Microsoft Store, Docker official downloads).
 
 ---
 
 ## 📎 Author
 
-**Created by:** [Inti Cerda](https://github.com/IntiCerda)
-**Repository:** [Script-Dev-W10-W11](https://github.com/IntiCerda/Script-Dev-W10-W11)
+- **Created by:** [Inti Cerda](https://github.com/IntiCerda)
+- **Repository:** [Script-Dev-W10-W11](https://github.com/IntiCerda/Script-Dev-W10-W11)
 
 ---
 
@@ -96,7 +96,7 @@ It installs developer tools, languages, WSL2, Docker, and VSCode extensions — 
 ## Descripción General
 
 Este repositorio contiene una colección de **scripts en PowerShell** que automatizan la configuración de un **entorno de desarrollo moderno en Windows 10 y Windows 11**.
-Está diseñado para ayudar a los desarrolladores a preparar rápidamente su sistema con las herramientas, lenguajes y entornos esenciales — incluyendo **VSCode**, **Docker** y **WSL2** — con el mínimo esfuerzo manual.
+Está diseñado para ayudar a los desarrolladores a preparar rápidamente su sistema con las herramientas, lenguajes y entornos esenciales — incluyendo **VSCode**, **Docker** y **WSL2** —
 
 Cada script puede ejecutarse de forma independiente según tus necesidades, y todos están preparados para funcionar de forma segura en instalaciones nuevas o existentes de Windows.
 
@@ -106,8 +106,8 @@ Cada script puede ejecutarse de forma independiente según tus necesidades, y to
 
 ### 1. **Basic Development Setup**
 
-**Archivo:** [`setup-dev.ps1`](https://github.com/IntiCerda/Script-Dev-W10-W11/blob/main/Basic%20Development%20Setup/setup-dev.ps1)
-**Propósito:** Instala las herramientas, lenguajes y editores esenciales para un entorno de desarrollo estándar.
+- **Archivo:** [`setup-dev README`](https://github.com/IntiCerda/Script-Dev-W10-W11/blob/main/Basic%20Development%20Setup/README.md)
+- **Propósito:** Instala las herramientas, lenguajes y editores esenciales para un entorno de desarrollo estándar.
 
 #### Instala:
 
@@ -121,8 +121,8 @@ Cada script puede ejecutarse de forma independiente según tus necesidades, y to
 
 ### 2. **Docker and WSL Setup**
 
-**Archivo:** [`setup-docker-wsl.ps1`](https://github.com/IntiCerda/Script-Dev-W10-W11/blob/main/Docker%20and%20WSL%20Setup/setup-docker-wsl.ps1)
-**Propósito:** Instala y configura **WSL2** (Subsistema de Windows para Linux) y **Docker Desktop** para desarrollo basado en contenedores.
+- **Archivo:** [`setup-docker-wsl README`](https://github.com/IntiCerda/Script-Dev-W10-W11/blob/main/Docker%20and%20WSL%20Setup/README.md)
+- **Propósito:** Instala y configura **WSL2** (Subsistema de Windows para Linux) y **Docker Desktop** para desarrollo basado en contenedores.
 
 #### Instala y Configura:
 
@@ -141,9 +141,9 @@ Sin esto, Docker Desktop y WSL2 no funcionarán correctamente.
 
 ### 3. **Complete Development Setup**
 
-**Archivo:** [`setup-dev-complete.ps1`](https://github.com/IntiCerda/Script-Dev-W10-W11/blob/main/Complete%20Development%20Setup/setup-dev-complete.ps1)
-**Propósito:** Configuración completa que combina los dos scripts anteriores en un solo proceso.
-Instala herramientas de desarrollo, lenguajes, WSL2, Docker y extensiones de VSCode — todo en una única ejecución.
+- **Archivo:** [`setup-dev-complete README`](https://github.com/IntiCerda/Script-Dev-W10-W11/blob/main/Complete%20Development%20Setup/README.md)
+- **Propósito:** Configuración completa que combina los dos scripts anteriores en un solo proceso.
+  Instala herramientas de desarrollo, lenguajes, WSL2, Docker y extensiones de VSCode.
 
 #### Incluye:
 
@@ -167,17 +167,17 @@ Instala herramientas de desarrollo, lenguajes, WSL2, Docker y extensiones de VSC
 
 ## ¿Por qué usar estos scripts?
 
-**Automatización completa:** Sin instalaciones manuales.
-**Consistencia:** Mismo entorno en distintas máquinas.
-**Ahorro de tiempo:** Todo el entorno se configura en un solo paso.
-**Modularidad:** Usa solo los scripts que necesites.
-**Seguro:** Usa fuentes oficiales (Winget, Microsoft Store, Docker).
+- **Automatización completa:** Sin instalaciones manuales.
+- **Consistencia:** Mismo entorno en distintas máquinas.
+- **Ahorro de tiempo:** Todo el entorno se configura en un solo paso.
+- **Modularidad:** Usa solo los scripts que necesites.
+- **Seguro:** Usa fuentes oficiales (Winget, Microsoft Store, Docker).
 
 ---
 
 ## 📎 Autor
 
-**Creado por:** [Inti Cerda](https://github.com/IntiCerda)
-**Repositorio:** [Script-Dev-W10-W11](https://github.com/IntiCerda/Script-Dev-W10-W11)
+- **Creado por:** [Inti Cerda](https://github.com/IntiCerda)
+- **Repositorio:** [Script-Dev-W10-W11](https://github.com/IntiCerda/Script-Dev-W10-W11)
 
 ---
