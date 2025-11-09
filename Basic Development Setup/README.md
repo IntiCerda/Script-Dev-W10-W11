@@ -124,18 +124,3 @@ The script will display progress messages for each installation step and end wit
 | **VSCode Extension** | Subtle Match Brackets | `rafamel.subtle-brackets`                        | Bracket highlighting              |
 
 ---
-
-## ✅ Result
-
-After running this script, your system will be fully equipped with:
-
-- Core developer tools
-- Common programming languages
-- API and database utilities
-- A customized, visually pleasing, and efficient VSCode setup
-
-Your environment will be **ready for development** in Go, Node.js, Python, or Java, with modern tooling and a consistent workspace.
-
----
-
-Would you like me to add a short “Uninstallation / Cleanup” section (with commands to remove each component using Winget and VSCode)? It’s a good addition if you plan to share this publicly on GitHub.

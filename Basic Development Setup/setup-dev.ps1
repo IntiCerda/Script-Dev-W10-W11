@@ -1,11 +1,14 @@
 # ----------------------------------------
-# ----- Setup Dev Basic -----
-# This script installs a basic development environment on Windows 10/11 using winget.
-# It includes tools, languages, and VSCode extensions.
-# - Tools: Git, VSCode
-# - Languages: Go, Node.js, Python, Java
-# - Development Tools: Postman, MongoDB Compass
-# - VSCode Extensions: Go, ESLint, Prettier, Python, Docker, MongoDB, Themes, Bracket Highlighter
+# Basic Development Setup
+# This script installs a basic development environment
+# for Windows 10/11 using winget.
+# Actions:
+# - Install core tools: Git, Visual Studio Code
+# - Install languages: Go, Node.js (LTS), Python 3.12, Java (Temurin JDK)
+# - Install tools: Postman, MongoDB Compass
+# - Install VS Code extensions: Go, ESLint, Prettier, Python, Docker, MongoDB, themes, bracket helpers
+# - Add %USERPROFILE%\go\bin to the user PATH
+# - Show completion message when finished
 # ----------------------------------------
 
 Write-Host "Starting..." -ForegroundColor Cyan

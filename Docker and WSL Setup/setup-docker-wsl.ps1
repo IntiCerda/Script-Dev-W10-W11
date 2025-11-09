@@ -1,12 +1,14 @@
-# ===============================
-# Setup Docker + WSL2 - PowerShell Script
-# This script sets up WSL2 and installs Docker Desktop on Windows 10/11.
-# It performs the following actions:
-# - Enable WSL2 features (Windows Subsystem for Linux and Virtual Machine Platform)
+# ----------------------------------------
+# Docker and WSL Setup
+# This script installs and configures WSL2 and Docker Desktop
+# on Windows 10/11.
+# Actions:
+# - Turn on WSL2 features (Windows Subsystem for Linux and Virtual Machine Platform)
 # - Set WSL2 as the default version
-# - Install Ubuntu distribution under WSL
+# - Install Ubuntu under WSL
 # - Download and install Docker Desktop
-# ===============================
+# - Try to set Docker to use WSL2 (may need restart)
+# ----------------------------------------
 
 Write-Host "Starting installation of WSL2 and Docker Desktop..." -ForegroundColor Cyan
 

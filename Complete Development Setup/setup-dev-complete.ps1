@@ -1,24 +1,21 @@
 # ----------------------------------------
-# ----- Setup Dev  -----
-# This script installs and configures a basic development environment
-# on Windows 10/11 using winget and other built-in tools.
-# It performs the following actions:
-# - Ensure PowerShell execution policy (RemoteSigned for current process)
-# - Ensure winget (App Installer) is installed, then update it and upgrade packages
+# Complete Development Setup
+# This script installs and configures a development environment
+# for Windows 10/11 using winget and built-in tools.
+# Actions:
+# - Set PowerShell policy to RemoteSigned (for this session)
+# - Install winget (App Installer) if missing. Update winget and apps.
 # - Install core tools: Git, Visual Studio Code
-# - Install runtimes and languages: Go, Node.js (LTS), Python 3.12, Temurin (Eclipse Adoptium) JDK
-# - Install development utilities: Postman, MongoDB Server (or Compass in extended script)
-# - Configure environment variables: add %USERPROFILE%\go\bin to the user PATH
-# - Enable WSL2 features (Windows Subsystem for Linux and Virtual Machine Platform)
-# - Install Ubuntu distribution under WSL
-# - Download and install Docker Desktop and attempt to switch it to the WSL2 backend
-# - Attempt to configure Docker CLI to use the Linux engine (may require restart)
-# - Clean up temporary installation files and prompt for system restart
+# - Install languages: Go, Node.js (LTS), Python 3.12, Java (Temurin JDK)
+# - Install tools: Postman, MongoDB Server (or MongoDB Compass)
+# - Add %USERPROFILE%\go\bin to the user PATH
+# - Turn on WSL2 features (Windows Subsystem for Linux and Virtual Machine Platform)
+# - Install Ubuntu under WSL
+# - Download and install Docker Desktop and try to set it to use WSL2
+# - Clean temporary files and ask to restart the computer
 #
-# Additional items installed by the extended setup (separate/related script):
-# - VSCode extensions: Go, ESLint, Prettier, Python, Docker, MongoDB, themes, indent and bracket helpers
-# - MongoDB Compass (GUI) and other optional GUI tools
-#
+# Extra (from the extended script):
+# - VS Code extensions: Go, ESLint, Prettier, Python, Docker, MongoDB, themes, brackets/indent helpers
 # ----------------------------------------
 
 Write-Host "Starting development environment setup..."
