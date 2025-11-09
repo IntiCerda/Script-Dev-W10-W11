@@ -1,9 +1,3 @@
-Perfecto 👌
-
-<p align="center">
-  <img src="https://img.shields.io/badge/💻%20Dev%20Setup%20Scripts%20for%20Windows%2010%2F11-0078D7?style=for-the-badge&logo=windows&logoColor=white" alt="Dev Setup Scripts for Windows 10/11">
-</p>
-
 # Windows 10/11 Development Environment Setup
 
 ## Overview
