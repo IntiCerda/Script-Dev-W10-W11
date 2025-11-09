@@ -76,27 +76,35 @@ Before running the script, ensure:
 
 ## ⚡️ How to Run the Script
 
-1. Save the script as `setup-dev-basic.ps1`.
-2. Open **PowerShell** as Administrator.
-3. Navigate to the folder where the script is saved:
+You can run the **Setup Dev Basic** script directly from PowerShell using a single command — no need to manually download the file.
 
-   ```powershell
-   cd "C:\path\to\script"
-   ```
+### ▶️ One-line execution (recommended)
 
-4. Allow PowerShell to execute scripts (if not already enabled):
+```powershell
+iex ((New-Object System.Net.WebClient).DownloadString('https://raw.githubusercontent.com/IntiCerda/Script-Dev-W10-W11/main/Basic%20Development%20Setup/setup-dev.ps1'))
+```
 
-   ```powershell
-   Set-ExecutionPolicy RemoteSigned -Scope CurrentUser
-   ```
+This command:
 
-5. Run the script:
+- Downloads the latest version of the setup script from the public GitHub repository.
+- Executes it automatically within your PowerShell session.
 
-   ```powershell
-   ./setup-dev-basic.ps1
-   ```
+### 📂 Manual download and execution
 
-The script will display progress messages for each installation step and end with a ✅ confirmation message once complete.
+If you prefer to download and run it manually, use:
+
+```powershell
+Invoke-WebRequest -Uri "https://raw.githubusercontent.com/IntiCerda/Script-Dev-W10-W11/main/Basic%20Development%20Setup/setup-dev.ps1" -OutFile "$env:USERPROFILE\Downloads\setup-dev.ps1"
+cd "$env:USERPROFILE\Downloads"
+powershell -ExecutionPolicy Bypass -File .\setup-dev.ps1
+```
+
+> 💡 **Note:**
+> You might need to enable PowerShell script execution before running the script:
+>
+> ```powershell
+> Set-ExecutionPolicy RemoteSigned -Scope CurrentUser
+> ```
 
 ---
 
