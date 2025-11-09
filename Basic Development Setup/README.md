@@ -1,6 +1,6 @@
-# 🧰 Setup Dev Basic — Windows Developer Environment
+# Setup Dev Basic — Windows Developer Environment
 
-## 📖 Description
+## Description
 
 The **Setup Dev Basic** PowerShell script automates the installation of a complete development environment on **Windows 10/11** using **Winget** (the Windows Package Manager) and **Visual Studio Code extensions**.
 
@@ -8,22 +8,22 @@ It is designed to provide a clean, ready-to-code setup for backend, frontend, an
 
 The script includes:
 
-- 🧠 **Basic tools** (Git, VS Code)
-- 🧩 **Programming languages and runtimes** (Go, Node.js, Python, Java)
-- 🧪 **Development utilities** (Postman, MongoDB Compass)
-- 🎨 **VSCode extensions** for linting, formatting, theming, and productivity
-- ⚙️ **Environment variable setup** to ensure the Go toolchain is properly configured
+- **Basic tools** (Git, VS Code)
+- **Programming languages and runtimes** (Go, Node.js, Python, Java)
+- **Development utilities** (Postman, MongoDB Compass)
+- **VSCode extensions** for linting, formatting, theming, and productivity
+- **Environment variable setup** to ensure the Go toolchain is properly configured
 
 ---
 
-### 1. 🧰 Tools Installation
+### 1. Tools Installation
 
 Installs essential developer tools using **Winget**:
 
 - **Git** — version control system for source code management.
 - **Visual Studio Code (VSCode)** — lightweight, powerful source code editor for all major languages.
 
-### 2. 🧑‍💻 Language Runtimes
+### 2. Language Runtimes
 
 Installs popular programming languages and their runtimes:
 
@@ -32,14 +32,14 @@ Installs popular programming languages and their runtimes:
 - **Python 3.12** — interpreted language for scripting, automation, and data science.
 - **Java (Temurin 21 JDK)** — cross-platform language widely used for enterprise and Android development.
 
-### 3. 🧪 Development Tools
+### 3. Development Tools
 
 Installs additional development tools:
 
 - **Postman** — powerful API development and testing platform.
 - **MongoDB Compass** — graphical interface for managing and visualizing MongoDB databases.
 
-### 4. 💻 VSCode Extensions
+### 4. VSCode Extensions
 
 Enhances VS Code with productivity, formatting, and aesthetic tools:
 
@@ -56,13 +56,13 @@ Enhances VS Code with productivity, formatting, and aesthetic tools:
 | **Palenight Theme**           | `whizkydee.material-palenight-theme` | Elegant dark color theme inspired by Material Design.               |
 | **Subtle Match Brackets**     | `rafamel.subtle-brackets`            | Softly highlights matching brackets to enhance code clarity.        |
 
-### 5. ⚙️ Environment Configuration
+### 5. Environment Configuration
 
 Finally, the script adds the Go binary path (`$env:USERPROFILE\go\bin`) to the user’s **PATH** environment variable, allowing the `go` command to be recognized globally.
 
 ---
 
-## 🧩 Requirements
+## Requirements
 
 Before running the script, ensure:
 
@@ -74,7 +74,7 @@ Before running the script, ensure:
 
 ---
 
-## ⚡️ How to Run the Script
+## How to Run the Script
 
 You can run the **Setup Dev Basic** script directly from PowerShell using a single command — no need to manually download the file.
 
@@ -108,7 +108,7 @@ powershell -ExecutionPolicy Bypass -File .\setup-dev.ps1
 
 ---
 
-## 🧾 Summary of Installed Components
+## Summary of Installed Components
 
 | Category             | Name                  | Installer / Source                               | Description                       |
 | -------------------- | --------------------- | ------------------------------------------------ | --------------------------------- |
